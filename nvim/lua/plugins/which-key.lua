@@ -1,6 +1,6 @@
-
 return {
   "folke/which-key.nvim",
+  dependencies = { "nvim-telescope/telescope.nvim" },
   config = function()
     local wk = require("which-key")
     local builtin = require("telescope.builtin")

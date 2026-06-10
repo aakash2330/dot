@@ -1,4 +1,5 @@
--- bootstrap lazy.nvim, LazyVim and your plugins
+-- Use nvim-cmp instead of blink.cmp so our cmp opts apply
+vim.g.lazyvim_cmp = "nvim-cmp"
 require("config.lazy")
 vim.opt.laststatus = 0
 vim.opt.guicursor = ""
